@@ -1,0 +1,20 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class  Atividade5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite um valor inteiro para ser exibido o antecessor dele: ");
+		int valor=sc.nextInt();
+		
+		int r = valor-1;
+
+		System.out.println("O antecessor é: "+r);
+		
+		sc.close();
+	}
+}
